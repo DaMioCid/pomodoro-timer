@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+    background: #03A678;
+}
+
+body {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: -20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Advent Pro;
+}
+
+h1 {
+    font-size: 700%;
+}
+
+h2 {
+    font-size: 250%;
+    padding-top: 25px;
+}
+
+#breakLenght {
+    background: #3498DB;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    float: left;
+    margin: 0px 90px;
+}
+
+#sessionLenght {
+    background: #3498DB;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    float: right;
+    margin: 0px 90px;
+}
+
+#sessions {
+    background: #52B3D9;
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+.time {
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+#mod {
+    margin-top: -50px;
+}
+
+#sadd,
+#badd,
+#sadd:hover,
+#badd:hover,
+#ssub,
+#ssub:hover,
+#bsub,
+#bsub:hover {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#controls {
+    margin-top: 200px;
+    right: 0;
+}
+
+#resetButton,
+#startButton,
+#pauseButton {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#timer {
+    position: absolute;
+}
+
+.stimer {
+    font-size: 150px;
+    margin-top: -30px;
+    height: 150px;
+    width: 320px;
+}
+
+.mtimer {
+    font-size: 100px;
+    margin-top: -10px;
+    height: 150px;
+    width: 320px;
+}
+
+.htimer {
+    font-size: 85px;
+    margin-top: 0px;
+    height: 150px;
+    width: 320px;
+}
