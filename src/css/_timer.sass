@@ -1,0 +1,34 @@
+.timer-wrapper
+    background-color: $timer
+    border-radius: 100%
+    width: 400px
+    height: 400px
+    font-size: 50px
+    transition: all 1s ease-in-out
+    z-index: 1
+    +displayAllCentered(column)
+    h2 
+        font-size: 50px
+        font-weight: 500
+    p
+        +displayAllCentered(row)
+        height: 200px
+        margin: 5% 0 5%
+        font-size: 200px
+        font-weight: 400
+    .controls
+        height: 40px
+        +displayAllCentered(row)
+        input
+            width: 40px
+            height: 40px
+            &:nth-child(1)
+            &:nth-child(2)
+                width: 0
+                height: 0
+            &:nth-child(3)
+                width: 0
+                height: 0
+                &:hover,
+                    transform: rotateZ(-360deg)
+                    transition: transform 1s ease-in-out
