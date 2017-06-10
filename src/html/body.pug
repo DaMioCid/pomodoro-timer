@@ -1,0 +1,10 @@
+include mixins.pug
+body
+    div.pomodoro
+        include header.pug
+        div.container
+            include break_length.pug
+            include timer.pug
+            include session_length.pug
+            div.back
+    script(type='text/javascript' src='main.js')

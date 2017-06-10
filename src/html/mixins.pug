@@ -1,0 +1,11 @@
+mixin lengths(num, ...title)
+    div(class!=attributes.class)
+        div
+            each i in title
+                span= i
+        p= num
+        div.controls
+            input.add(type='image' src='http://i63.tinypic.com/5n55lc.png')
+            input.sub(type='image' src='http://i64.tinypic.com/3326wc6.png')
+            input.dummy(type='image' src='http://i64.tinypic.com/lw27k.png')
+            input.dummy(type='image' src='http://i68.tinypic.com/13zpoxk.png')
